@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html, body{width:100%; height:100%;}
-body { padding-top: 60px; }
+body { padding-top: 50px; }
 
 #section{width:100%; height:100%; background-color:#eee
 }
@@ -16,7 +16,8 @@ body { padding-top: 60px; }
 #principal{
 	background-color:#fff;
 	text-align:justify;
-	padding:20px
+	padding:20px;
+	padding-top:0;
 }
 
 #menu-bas{
