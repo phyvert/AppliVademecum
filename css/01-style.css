@@ -1,0 +1,414 @@
+
+@page {
+	margin : 0px 0px 0px 0px;
+}
+
+
+table.Tableau-simple {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+td.Tableau-simple {
+	border:none;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align:top;
+}
+tr.Tableau-simple {
+	page-break-after:auto;
+	page-break-before:auto;
+		border:none;
+}
+table.Aucun-style-de-tableau {
+	border:1px solid grey;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+td.Aucun-style-de-tableau {
+	border:1px solid grey;	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align:top;
+}
+tr.Aucun-style-de-tableau {
+	page-break-after:auto;
+	page-break-before:auto;
+}
+td.cellule-sous-titre {
+	background-color:#efeff0;
+	border-bottom-color:#ffffff;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-left-color:#ffffff;
+	border-left-style:solid;
+	border-left-width:2px;
+	border-right-color:#ffffff;
+	border-right-style:solid;
+	border-right-width:2px;
+	border-top-color:#ffffff;
+	border-top-style:solid;
+	border-top-width:2px;
+	padding-bottom:5px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:5px;
+	vertical-align:middle;
+}
+td.cellule-texte {
+	background-color:#f8f8f8;
+	border-bottom-color:#ffffff;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-left-color:#ffffff;
+	border-left-style:solid;
+	border-left-width:2px;
+	border-right-color:#ffffff;
+	border-right-style:solid;
+	border-right-width:2px;
+	border-top-color:#ffffff;
+	border-top-style:solid;
+	border-top-width:2px;
+	padding-bottom:5px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:5px;
+	vertical-align:middle;
+}
+td.cellule-titre {
+	background-color:#e6e6e7;
+	border-bottom-color:#ffffff;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-left-color:#ffffff;
+	border-left-style:solid;
+	border-left-width:2px;
+	border-right-color:#ffffff;
+	border-right-style:solid;
+	border-right-width:2px;
+	border-top-color:#ffffff;
+	border-top-style:solid;
+	border-top-width:2px;
+	padding-bottom:5px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:5px;
+	vertical-align:middle;
+}
+p.normal {
+	color:#5f6062;
+	font-family:"ITC Officina Sans LT Book", sans-serif;
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.056;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.normalrond {
+	color:#5f6062;
+	font-family:"ITC Officina Sans LT Book", sans-serif;
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.056;
+	margin-bottom:0;
+	margin-left:6px;
+	margin-right:0;
+	margin-top:6px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:-6px;
+	text-transform:none;
+	widows:1;
+}
+p.note {
+	color:#5f6062;
+	font-family:"ITC Officina Sans LT Book", sans-serif;
+	font-size:0.9em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.onglet01tableauxsoustitre {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+	color:#b1132f;
+	font-family:"ITC Officina Sans LT Bold", sans-serif;
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.067;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.onglet01tableauxtexte {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+	color:#5f6062;
+	font-family:"ITC Officina Sans LT Book", sans-serif;
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.067;
+	margin-bottom:0;
+	margin-left:4px;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:-4px;
+	text-transform:none;
+	widows:1;
+}
+p.onglet01tableauxtitreLC {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+	color:#b1132f;
+	font-family:"ITC Officina Sans LT Bold", sans-serif;
+	font-size:1.1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.067;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:uppercase;
+	widows:1;
+}
+p.onglet01titre1 {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+	color:#b1132f;
+	font-family:Arial, sans-serif;
+	font-size:1.333em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:900;
+	line-height:0.719;
+	margin-bottom:3px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:uppercase;
+	widows:1;
+}
+p.onglet01titre2 {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+	color:#b1132f;
+	font-family:"Myriad Pro Cond", sans-serif;
+	font-size:1.167em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:0.929;
+	margin-bottom:8px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:15px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.onglet01titre3 {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+	color:#b1132f;
+	font-family:"Myriad Pro Cond", sans-serif;
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.083;
+	margin-bottom:4px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.onglet01titre4 {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+	color:#b1132f;
+	font-family:"Myriad Pro Cond", sans-serif;
+	font-size:0.85em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:0.95;
+	margin-bottom:2px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.onglet01titre5 {
+	-epub-hyphens:none;
+	-webkit-hyphens:none;
+	color:#b1132f;
+	font-family:"Myriad Pro Cond", sans-serif;
+	font-size:0.733em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:0.95;
+	margin-bottom:2px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+.onglet01symbole
+{
+	font-family:wingdings;
+	text-align:center;
+	color:#b1132f;
+}
+
+span.A00couleur {
+	color:#b1132f;
+	text-decoration:none;
+}
+span.A10semibold {
+	color:#5f6062;
+	font-style:normal;
+	font-weight:bold;
+	text-decoration:none;
+}
+span.A11semibold-couleur {
+	color:#b1132f;
+	font-style:normal;
+	font-weight:bold;
+	text-decoration:none;
+}
+span.A20italique {
+	font-style:italic;
+	font-weight:normal;
+}
+span.A60exposant {
+	vertical-align:super;
+}
+span.normalrond-FLECH {
+	color:#b1132f;
+	font-family:"ITC Officina Sans LT Book", sans-serif;
+	font-size:0.85em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-transform:none;
+}
+span.tableautexte-FLECH {
+	color:#b1132f;
+	font-family:"ITC Officina Sans LT Book", sans-serif;
+	font-size:0.625em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-transform:none;
+}
+
+
+table
+{
+margin-top:15px;
+margin-bottom:15px;
+}
+
+
+table {
+	margin-left:auto;
+	margin-right:auto;
+}
